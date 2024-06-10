@@ -1,1 +1,3 @@
-my.greeting.example.specific: Hello from citizen-microservice
+my:
+  greeting:
+    specific: Hello world from citizen server

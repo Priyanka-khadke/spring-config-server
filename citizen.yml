@@ -1,3 +1,3 @@
 my:
-greeting:
-example: Hello
+  greeting:
+    example: Hello world from config server from citizen service

@@ -1,3 +1,11 @@
-my:
-  greeting:
-    example: Hello world from config server from microservice specific
+spring:
+  application:
+    name: Citizen-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/citizendb
+    username: root
+    password: root
+  jpa:
+  properties:
+      hibernate:
+      ddl-auto: update

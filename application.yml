@@ -1,3 +1,8 @@
 my:
   greeting:
     example: Hello world from config server from GIThub-updated finally
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
